@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 15px;
+  margin: 15px;
+  border: 3px solid #998e8e;
+  border-radius: 7px;
+}
+
+button {
+  padding: 15px 20px;
+  margin: 7px;
+  border: none;
+  border-radius: 7px;
+  background-color: #306398;
+  color: white;
+}
+
+button:hover {
+  background-color: #19a543;
+}
+
+#display-name {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #c01e1e;
+  font-style: italic;
+}
